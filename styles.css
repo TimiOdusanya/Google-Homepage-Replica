@@ -1,0 +1,156 @@
+body{
+  height: 100%;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+.hr{
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 10%
+}
+
+.content{
+  text-align: center;
+}
+
+.profile-img{
+  border-radius: 50%;
+  height:30px;
+  width: 30px;
+}
+
+/* .form-control{
+
+} */
+
+.search{
+  width: 584px;
+  margin-left: 0;
+  height: 45px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  text-align: center;
+
+}
+
+.s hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.search:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+.grid{
+  height:23px;
+  position:relative;
+  bottom:4px;
+  margin-top: 10px;
+}
+
+.language{
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.language, a{
+  padding-left: 10px;
+  /* color: #1a0dab; */
+}
+
+.anchor{
+  color: #1a0dab;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+.head-anchor{
+  color: black;
+  font-size: 13px;
+  margin-right: -10px;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.top-nav{
+  margin-top: 15px;
+}
+
+.footer{
+  display: block;
+  margin-top: 12.7%;
+}
+
+
+footer  {
+  background: #f2f2f2;
+/*   position: fixed; */
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+
+}
+
+footer ul li {
+  /* display: inline; */
+  /* color: #666666; */
+  font-size: 14px;
+}
+
+footer ul {
+  float: left;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+ footer a{
+   color: #70757a;
+ }
+
+
+.input-icons i {
+   position: absolute;
+   margin-left: 20px;
+   margin-top: 10px;
+   color: #9aa0a6;
+  }
+  /* .nav-link{
+    color: black;
+  } */
+  .main-button{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    border-radius: 4px;
+    font-size:14px;
+     padding: 7px 20px;
+     margin:5px;
+     outline: none;
+  }
+
+  .voice{
+  height:20px;
+  position:relative;
+  right:50px;
+}
+
+.nav-1{
+padding-left: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.nav-2{
+  padding-left: 20px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  padding-right: 20px;
+}
